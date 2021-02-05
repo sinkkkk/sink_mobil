@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstNumberEditText" />
+    <EditText
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/secondNumberEditText" />
+        <Button
+            android:text="Liida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/addButton"
+            android:background="#00FBFF"/>
+            
+        <Button
+            android:text="Lahuta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/minbutton" 
+            android:background="#00BFC2"/>
+        <Button
+            android:text="Korruta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/korbutton"
+            android:background="#008689"/>
+        <Button
+            android:text="Jaga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jagbutton"
+            android:background="#004C4E"/>
+    <TextView
+        android:text="Vastus"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="75px"
+        android:textColor="#ffff"
+        android:id="@+id/answerTextView"
+        android:background="#002425"/>
+
+</LinearLayout>
